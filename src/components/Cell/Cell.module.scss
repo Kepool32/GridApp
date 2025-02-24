@@ -1,0 +1,61 @@
+.cell {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.selected {
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+@media (max-width: 1200px) {
+  .cell {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cell {
+    width: 50px;
+    height: 50px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cell {
+    width: 45px;
+    height: 45px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cell {
+    width: 35px;
+    height: 35px;
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .cell {
+    width: 80px;
+    height: 80px;
+    font-size: 16px;
+  }
+}

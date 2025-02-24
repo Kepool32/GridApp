@@ -1,0 +1,24 @@
+.grid {
+  display: flex;
+  gap: 1px;
+  border: 1px solid #ddd;
+}
+
+.grid-cell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.grid-cell.selected {
+  background-color: #4caf50;
+}
+
+.grid-cell.highlighted {
+  background-color: #ffeb3b;
+}
